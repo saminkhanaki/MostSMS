@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MostSMS.com is for Sale | Premium SEO Domain</title>
+    <title>MostSMS.com | Premium SEO Domain with Active Traffic</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; }
         body, html { margin: 0; padding: 0; min-height: 100vh; font-family: 'Inter', sans-serif; }
         
         body {
-            background: linear-gradient(rgba(10, 20, 40, 0.85), rgba(10, 20, 40, 0.85)), 
+            background: linear-gradient(rgba(10, 20, 40, 0.88), rgba(10, 20, 40, 0.88)), 
                         url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2070');
             background-size: cover;
             background-position: center;
@@ -24,103 +24,117 @@
 
         .container {
             background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             padding: 50px 30px;
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            max-width: 700px;
+            border-radius: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            max-width: 750px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+            box-shadow: 0 40px 80px rgba(0,0,0,0.7);
         }
 
-        .badge {
-            background: #3b82f6;
-            color: white;
-            padding: 5px 15px;
+        .verified-badge {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            padding: 6px 16px;
             border-radius: 50px;
             font-size: 0.8rem;
             font-weight: 700;
             display: inline-block;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         h1 {
-            font-size: clamp(2.5rem, 7vw, 4.5rem);
+            font-size: clamp(2.8rem, 8vw, 4.8rem);
             font-weight: 900;
             margin: 0;
-            background: linear-gradient(to bottom, #ffffff, #94a3b8);
+            background: linear-gradient(to bottom, #ffffff, #cbd5e1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            letter-spacing: -2px;
         }
 
         .seo-description {
-            color: #93c5fd;
-            font-size: 1.1rem;
-            margin: 20px 0 30px;
-            line-height: 1.6;
-            font-weight: 400;
+            color: #94a3b8;
+            font-size: 1.15rem;
+            margin: 25px 0 35px;
+            line-height: 1.7;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
-            margin-bottom: 40px;
+            margin-bottom: 45px;
+        }
+
+        @media (min-width: 480px) {
+            .stats-grid { grid-template-columns: repeat(4, 1fr); }
         }
 
         .stat-item {
             background: rgba(255, 255, 255, 0.03);
-            padding: 15px;
-            border-radius: 15px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 20px 10px;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: transform 0.3s ease;
         }
+        
+        .stat-item:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.05); }
 
-        .stat-item h3 { margin: 0; color: #fff; font-size: 1.4rem; }
-        .stat-item p { margin: 5px 0 0; color: #64748b; font-size: 0.75rem; text-transform: uppercase; }
+        .stat-item h3 { margin: 0; color: #fff; font-size: 1.5rem; font-weight: 800; }
+        .stat-item p { margin: 6px 0 0; color: #94a3b8; font-size: 0.7rem; text-transform: uppercase; font-weight: 600; }
+        .stat-highlight { color: #60a5fa !important; } /* Highlight for Google Traffic */
 
         .cta-buttons {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
         }
 
         .btn {
-            padding: 18px;
-            border-radius: 12px;
+            padding: 20px;
+            border-radius: 14px;
             text-decoration: none;
-            font-weight: 700;
-            font-size: 1rem;
+            font-weight: 800;
+            font-size: 1.1rem;
             transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
 
-        .btn-sedo { background: #22c55e; color: white; }
-        .btn-afternic { background: #f59e0b; color: black; }
+        .btn-sedo { background: #22c55e; color: white; box-shadow: 0 10px 20px rgba(34, 197, 94, 0.2); }
+        .btn-afternic { background: #f59e0b; color: black; box-shadow: 0 10px 20px rgba(245, 158, 11, 0.2); }
         
-        .btn:hover {
-            transform: scale(1.02);
-            filter: brightness(1.1);
-        }
+        .btn:hover { transform: translateY(-3px); filter: brightness(1.1); }
 
         .footer-note {
-            margin-top: 30px;
-            font-size: 0.8rem;
+            margin-top: 40px;
+            font-size: 0.85rem;
             color: #475569;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="badge">Premium Aged Asset</div>
+    <div class="verified-badge">✓ Active Search Traffic Verified</div>
     <h1>MostSMS.com</h1>
     
     <p class="seo-description">
-        Acquire a high-authority domain with a rich history in the <b>Telecommunications & Software</b> sector. 
-        Boasting <b>28,000+ historic backlinks</b> and a <b>92% dofollow</b> ratio, this domain provides an immediate 
-        SEO headstart for your global SMS gateway or SaaS marketing platform.
+        A high-authority domain with <b>active Google search presence</b>. 
+        With over <b>28,000 historic backlinks</b> and established <b>DA 18</b>, this is a turnkey digital asset for global SMS marketing and SaaS platforms.
     </p>
 
     <div class="stats-grid">
@@ -130,20 +144,24 @@
         </div>
         <div class="stat-item">
             <h3>28K+</h3>
-            <p>Backlinks</p>
+            <p>Historic Links</p>
         </div>
         <div class="stat-item">
-            <h3>.COM</h3>
-            <p>Legacy Extension</p>
+            <h3 class="stat-highlight">Live</h3>
+            <p>Search Clicks</p>
+        </div>
+        <div class="stat-item">
+            <h3>92%</h3>
+            <p>Dofollow Ratio</p>
         </div>
     </div>
 
     <div class="cta-buttons">
-        <a href="https://www.afternic.com/domain/mostsms.com" target="_blank" class="btn btn-afternic">Buy on Afternic</a>
-        <a href="https://www.sedo.com/search/details/?domain=mostsms.com" target="_blank" class="btn btn-sedo">Buy on Sedo</a>
+        <a href="https://www.afternic.com/domain/mostsms.com" target="_blank" class="btn btn-afternic">Buy via Afternic (Secure)</a>
+        <a href="https://www.sedo.com/search/details/?domain=mostsms.com" target="_blank" class="btn btn-sedo">Buy via Sedo (Secure)</a>
     </div>
 
-    <p class="footer-note">Secure Escrow Transfer • Instant Domain Delivery • Established 10+ Years</p>
+    <p class="footer-note">Secure Escrow Transfer • Instant Delivery • Registered Since 2014+</p>
 </div>
 
 </body>
